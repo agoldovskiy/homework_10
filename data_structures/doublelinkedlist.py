@@ -1,9 +1,9 @@
 class Node:
     def __init__(self, value, next, previous) -> None:
         """
-        value: the value of a Node
-        next: the next Nde
-        previous: the previous Node
+        value: the value of a Node \n
+        next: the next Node \n
+        previous: the previous Node \n
         """
         self.value = value
         self.next = next
@@ -12,10 +12,10 @@ class Node:
 class DoubleLinkedList:
     def __init__(self) -> None:
         """
-        head: the first Node
-        tail: the last Node
-        length: the length of the DoubleLinkedList (whever if it is cycled or not)
-        cycle: False by default, if True - tail.next = head, head.previous = tail
+        head: the first Node \n 
+        tail: the last Node \n 
+        length: the length of the DoubleLinkedList (whever if it is cycled or not) \n 
+        cycle: False by default, if True - tail.next = head, head.previous = tail \n 
         """
         self.head = None
         self.tail = None
